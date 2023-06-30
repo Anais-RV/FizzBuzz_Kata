@@ -1,4 +1,4 @@
-function fizzbuzz(num) {  //  creo una función para saber si un número es divisible de 3 (Fizz), de 5(Buzz), de ambos(FizzBuzz) o de ninguno.
+function FizzBuzz(num) {  //  creo una función para saber si un número es divisible de 3 (Fizz), de 5(Buzz), de ambos(FizzBuzz) o de ninguno.
 
     if (num % 3 === 0 && num % 5 == 0){
         return("FizzBuzz"); // Si es divisible por ambos
@@ -10,4 +10,4 @@ function fizzbuzz(num) {  //  creo una función para saber si un número es divi
         return num.toString(); // Sino devuelve un string con num
     }
 }
-module.exports = fizzbuzz; //exporto el modulo (node.js)
+module.exports = FizzBuzz; //exporto el modulo (node.js)
